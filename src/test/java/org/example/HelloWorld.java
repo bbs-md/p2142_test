@@ -11,7 +11,7 @@ public class HelloWorld {
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        driver.get("https://google.com");
+        driver.get("https://demoqa.com/automation-practice-form");
         driver.quit();
     }
 }
